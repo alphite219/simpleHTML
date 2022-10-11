@@ -4,23 +4,79 @@
 <head>
     <meta charset="UTF-8" />
     <title>Just a Lil Guy</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <style>
+        body{
+            background-color:beige;
+            background-image: url(/images/BurningGirl.jpg);
+        }
+        img{
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+        h1, h4{
+            width: 900px;
+            font-family:Georgia, 'Times New Roman', Times, serif ;
+        }
+        p{
+            width: 200px;
+            font-size: 14px;
+            font-family:Georgia, 'Times New Roman', Times, serif
+        }
+        .gallery-container{
+            display: inline-block;
+            font-size: 0;
+            width: 900px;
+        }
+        .mountains{
+            display: inline-block;
+            width: 300px;
+            vertical-align: top;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Hey Hi Howdy Hello</h1>
-    <p> Hope your day is going well :) Here's some nice landscapes </p>
-    <div>
-        <div>
-            <img src="/images/Sunrise_Mountains.jpg" title="Sunrise Mountains" />
+    <h4> Hope your day is going well :) Here's some nice landscapes </h4>
+    <div class="gallery-container">
+        <div class="mountains">
+            <img src="images/Sunrise_Mountains.jpg" title="Sunrise Mountains" />
+            <p>A lovely lakeside scene at sunrise, with foggy mountains on the horizon.</p>
         </div>
-       <div>
-            <img src="/images/Midday_Mountains.jpg" title="Midday Mountains" />
-       </div>
-       <div>
-            <img src="/images/Sunset_Mountains.jpg" title="Sunset Mountains" />
+       <div class="mountains">
+            <img src="images/Midday_Mountains.jpg" title="Midday Mountains" />
+            <p>A wonderful golden landscape on a sunny day, and snowy mountains in the distance.</p>
+        </div>
+       <div class="mountains">
+            <img src="images/Sunset_Mountains.jpg" title="Sunset Mountains" />
+            <p>A sombre set of dark mountains lit by a sunset.</p>
        </div>
     </div>
+
+    <h4> Also here is my proof as to why orchestra conductors are secretly <span style="color:blue"><i>Wizards</i></span></h4>
+    <div class="gallery-container">
+        <div class="mountains">
+            <img src="/images/Conductor1.jpg" title="conductor1" />
+        </div>
+        <div class="mountains">
+            <img src="/images/conductor2.webp" title="conductor2" />
+        </div>
+        <div class="mountains">
+            <img src="/images/Conductor3.jpg" title="conductor3" />
+        </div>
+        <div class="mountains">
+            <img src="/images/Conductor4.jpg" title="conductor4" />
+        </div>
+        <div class="mountains">
+            <img src="/images/Conductor5.jpg" title="conductor5" />
+        </div>
+        <div class="mountains">
+            <img src="/images/Conductor6.png" title="conductor6" />
+        </div>
+    </div>
+    <h4>Thank you for coming to my ted talk.</h4>
 </body>
 
 </html>
